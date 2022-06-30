@@ -1,0 +1,73 @@
+.momentList {
+  margin-right: 48px;
+}
+
+.momentListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid gray;
+  font-size: 14px;
+}
+
+.momentListItemHeader {
+  font-size: 17px;
+  text-emphasis: bold;
+}
+
+.playerName {
+  width: 180px;
+}
+
+.serialNumber {
+  margin-top: 4px;
+}
+
+.lowSerial {
+  font-weight: bold;
+  color: rgb(66, 0, 113);
+  font-size: 17px;
+  background-color: rgb(231, 255, 214);
+}
+
+.estValue {
+  width: 140px;
+  color: rgb(1, 1, 63);
+  font-weight: bold;
+}
+.listPrice {
+  width: 140px;
+}
+
+.discountValue {
+  width: 180px;
+}
+
+.discountBaby {
+  color: rgb(0, 80, 0);
+  font-weight: bold;
+  font-size: 20px;
+  width: 180px;
+}
+
+.buyNow {
+  width: 180px;
+}
+
+.hurryBuy {
+  width: 180px;
+  a {
+    text-decoration: none;
+    padding: 12px;
+    background: rgb(0, 80, 0);
+    border: 1px solid rgb(0, 80, 0);
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+  }
+}
+
+.seeAll {
+  width: 180px;
+}
